@@ -1,0 +1,131 @@
+.logosite {
+    height: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+.mae{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#exampleFormControlInput1 {
+    background-color: rgb(145, 156, 156);
+    color: white;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+.botao01{
+    margin-right: 10px;
+}
+
+#centro {
+margin-top: 5rem;
+
+}
+
+.direcao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px
+}
+
+.show {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.show img {
+  max-width: 100%;
+  height: auto;
+}
+
+.buy-button {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.purchase-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    border-bottom-color: #6B3A99;
+    padding: 10px;
+    background-color: #EDEDED;
+    border-radius: 8px;
+  }
+  
+  /* Estilo para o subtítulo */
+  .purchase-subtitle {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  /* Estilo para o formulário e a div container */
+.caixaform {
+    background-color: #979797;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para o título de finalização de compra */
+  .purchase-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    border-bottom-color: #6B3A99;
+    padding: 10px;
+    background-color: #EDEDED;
+    border-radius: 8px;
+  }
+  
+  /* Estilo para o subtítulo */
+  .purchase-subtitle {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilo para o botão de envio */
+  .btn-warning {
+    background-color: #FFC107;
+    color: #333;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-warning:hover {
+    background-color: #FFA000;
+  }

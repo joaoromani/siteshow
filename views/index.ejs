@@ -1,0 +1,37 @@
+<%- include('./header.ejs') %>
+
+
+    <body>
+
+        <%- include('./navbar.ejs') %>
+        <hr>
+            <h2 class="text-center bg-danger text-light">Página Principal | Perguntas & Respostas - João Romani</h2>
+
+            <div class="text-center">
+                <button class="btn btn-success">
+                    <a href="/perguntas">Perguntar</a>
+                </button>
+
+                <a href="/perguntas">
+                    <button class="btn btn-danger">Perguntar</button>
+                </a>
+            </div>
+            <hr>
+
+            <div class="container">
+               <h3> <% perguntas.forEach(pergunta => { %>
+                <div class="card my-2 ">
+                    <div class="card-body">
+                        <%= pergunta.titulo %>
+                    </div>
+                </div>
+                 <div class="card-footer">
+                    <a href="/perguntas/<%= pergunta.id %>" class="btn btn-info">Responder</a>
+                 </div>
+                <% }) %>
+            </h3>
+        </div>
+    </body>
+
+
+    <%- include('./footer.ejs') %>

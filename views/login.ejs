@@ -1,0 +1,20 @@
+<%- include('./header.ejs') %>
+<body>
+    <%- include('./navbar.ejs') %>
+    <div class="container">
+        <div class="card my-5">
+            <div class="card-header">
+                <h1 class="text-center display-4"> Página de Login </h1>
+            
+            </div>
+            <% if (cadastrar == 0) { %>
+             <form action="/login" method="post">
+                <label class="" for="nome">Informe seu nome completo</label>
+                <input type="text" name="nome" placeholder="Escreva seu nome aqui" class="form-control">
+             </form>
+            <% } %>
+        </div>
+    </div>
+</body>
+
+<%- include('./footer.ejs') %>
